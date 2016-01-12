@@ -1,0 +1,18 @@
+@value colors "theme/index.css";
+@value primary from colors;
+@value dark from colors;
+
+.root {
+	border: 0;
+	background: transparent;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	color: inherit;
+}
+
+.dark {
+	composes: root;
+	color: primary;
+	background: dark;
+}

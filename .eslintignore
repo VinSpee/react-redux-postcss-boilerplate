@@ -1,0 +1,7 @@
+coverage/**
+node_modules/**
+dist/**
+tests/**
+*.spec.js
+src/index.html
+server/lib/apply-express-middleware.js
